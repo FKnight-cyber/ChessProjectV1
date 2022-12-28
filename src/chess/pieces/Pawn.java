@@ -57,4 +57,8 @@ public class Pawn extends ChessPiece {
         }
         return mat;
     }
+
+    public String toString() {
+        return "P";
+    }
 }
